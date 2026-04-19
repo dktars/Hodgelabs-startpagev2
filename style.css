@@ -1,0 +1,94 @@
+:root {
+  --bg: #08111d;
+  --card: rgba(15, 25, 40, 0.75);
+  --border: rgba(255,255,255,0.08);
+  --text: #e5edf8;
+  --muted: #8ea0b8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: radial-gradient(circle at top right, rgba(80,135,220,0.15), transparent),
+              radial-gradient(circle at bottom left, rgba(69,179,145,0.1), transparent),
+              var(--bg);
+  color: var(--text);
+  padding: 40px 20px;
+}
+
+/* HEADER */
+.topbar {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+#clock {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+#date {
+  color: var(--muted);
+  margin-top: 5px;
+}
+
+/* SEARCH */
+.search {
+  display: flex;
+  gap: 10px;
+  max-width: 800px;
+  margin: 20px auto 40px;
+}
+
+.search select,
+.search input,
+.search button {
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+}
+
+.search input {
+  flex: 1;
+}
+
+/* DASHBOARD */
+#dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.section {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+}
+
+.link {
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.link:hover {
+  background: rgba(255,255,255,0.05);
+}
