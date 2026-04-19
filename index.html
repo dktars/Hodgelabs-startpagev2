@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Startpage</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+
+    <!-- HEADER -->
+    <header class="topbar">
+      <p class="eyebrow">Startpage</p>
+      <h1 id="greeting">Good Evening</h1>
+      <div id="clock"></div>
+      <div id="date"></div>
+    </header>
+
+    <!-- SEARCH -->
+    <form id="searchForm" class="search">
+      <select id="engineSelect"></select>
+      <input id="searchInput" type="text" placeholder="Search..." />
+      <button type="submit">Search</button>
+    </form>
+
+    <!-- DASHBOARD -->
+    <main id="dashboard"></main>
+
+  </div>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
