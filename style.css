@@ -30,8 +30,7 @@ body {
 body {
   font-family: var(--font-main);
   color: var(--text);
-  background:
-    linear-gradient(135deg, #06111c 0%, #0a213c 100%);
+  background: linear-gradient(135deg, #06111c 0%, #0a213c 100%);
   min-height: 100vh;
   position: relative;
   overflow-x: hidden;
@@ -210,7 +209,6 @@ body {
   font-size: 0.92rem;
   line-height: 1.9;
   color: var(--text);
-  white-space: pre-wrap;
 }
 
 .tree-line {
