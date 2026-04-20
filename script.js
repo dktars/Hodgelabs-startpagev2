@@ -153,7 +153,7 @@ function init() {
   populateSearchEngines();
   renderCards();
   updateDateTime();
-  setInterval(updateDateTime, 1000 * 30);
+  setInterval(updateDateTime, 30000);
   searchFormEl.addEventListener("submit", handleSearch);
 }
 
