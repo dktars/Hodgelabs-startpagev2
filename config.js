@@ -76,6 +76,18 @@ const STARTPAGE_CONFIG = {
         { name: "weather", url: "https://weather.com" },
         { name: "maps", url: "https://maps.google.com" }
       ]
+    },
+    {
+      title: "Homelab",
+      rootLabel: "~ / homelab",
+      items: [
+        { name: "cloudflare", url: "https://dash.cloudflare.com" },
+        { name: "proxmox", url: "https://www.proxmox.com/en/" },
+        { name: "portainer", url: "https://www.portainer.io/" },
+        { name: "pfsense", url: "https://www.pfsense.org/" },
+        { name: "tailscale", url: "https://login.tailscale.com/" },
+        { name: "home-assistant", url: "https://www.home-assistant.io/" }
+      ]
     }
   ]
 };
